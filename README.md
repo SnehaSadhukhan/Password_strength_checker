@@ -6,15 +6,16 @@ A simple, user-friendly **Password Strength Checker** built using Python's `tkin
 
 ## 🚀 Features
 
-- Intuitive **Graphical User Interface** (GUI)
-- Evaluates password strength in real-time
-- Provides visual and color-coded feedback (e.g., Weak, Moderate, Strong)
+- Graphical User Interface using `tkinter`
+- Real-time password strength evaluation
 - Checks for:
-  - Minimum length
-  - Uppercase/lowercase mix
-  - Digits and special characters
-  - Common weak patterns
-- Lightweight and easy to run locally
+  - Minimum length (8 characters)
+  - At least one uppercase and lowercase letter
+  - At least one digit
+  - At least one special character
+- Visual feedback: 🔴 Weak, 🟡 Moderate, ✅ Strong
+- Suggestions for improvement shown below the result
+- Press **Enter key** or click the **Check Strength** button
 
 ---
 
@@ -22,6 +23,7 @@ A simple, user-friendly **Password Strength Checker** built using Python's `tkin
 
 - 🐍 Python 3.x
 - 🖼️ Tkinter (standard GUI library for Python)
+-  re (Regular Expressions - built-in)
 
 ---
 
